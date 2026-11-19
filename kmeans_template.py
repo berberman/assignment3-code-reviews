@@ -26,7 +26,6 @@ def update_assignments(data, centroids):
 
     assignments = np.zeros(n, dtype=int)
 
-    # for each point assign it to the closest cluster
     for i in range(n):
         min_dist = float("inf")
         cluster_idx = 0
